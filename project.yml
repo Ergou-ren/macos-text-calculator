@@ -1,0 +1,67 @@
+name: TextCalcMenuBar
+options:
+  minimumXcodeGenVersion: 2.38.0
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    PRODUCT_BUNDLE_IDENTIFIER: com.example.TextCalcMenuBar
+    SWIFT_VERSION: "6.0"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+packages:
+  TextCalcCore:
+    path: ./TextCalcCore
+targets:
+  TextCalcMenuBar:
+    type: application
+    platform: macOS
+    sources:
+      - path: TextCalcApp
+    dependencies:
+      - package: TextCalcCore
+        product: TextCalcCore
+    settings:
+      base:
+        PRODUCT_NAME: TextCalcMenuBar
+        INFOPLIST_FILE: TextCalcApp/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_STYLE: Automatic
+        ENABLE_HARDENED_RUNTIME: YES
+  TextCalcMenuBarTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: TextCalcCore/Tests/TextCalcCoreTests
+    dependencies:
+      - target: TextCalcMenuBar
+      - package: TextCalcCore
+        product: TextCalcCore
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Automatic
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.TextCalcMenuBarTests
+  TextCalcMenuBarUITests:
+    type: bundle.ui-testing
+    platform: macOS
+    sources:
+      - path: TextCalcUITests
+    dependencies:
+      - target: TextCalcMenuBar
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_STYLE: Automatic
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.TextCalcMenuBarUITests
+schemes:
+  TextCalcMenuBar:
+    build:
+      targets:
+        TextCalcMenuBar: all
+        TextCalcMenuBarTests: [test]
+        TextCalcMenuBarUITests: [test]
+    test:
+      gatherCoverageData: true
+      targets:
+        - name: TextCalcMenuBarTests
+        - name: TextCalcMenuBarUITests

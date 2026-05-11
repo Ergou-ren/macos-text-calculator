@@ -1,0 +1,15 @@
+.DS_Store
+.build/
+.swiftpm/
+DerivedData/
+Packages/
+xcuserdata/
+
+.codex-home/
+.codex-tmp/
+.codex-scratch/
+.codex-clang-module-cache/
+.codex-swiftpm-cache/
+.codex-swiftpm-config/
+.codex-swiftpm-security/
+.tmp_home/

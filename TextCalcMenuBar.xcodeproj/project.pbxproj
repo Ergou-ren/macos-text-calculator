@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		366D58A3080C4DA10B06F696 /* TextCalcCore in Frameworks */ = {isa = PBXBuildFile; productRef = CC38CA8E245036529B50FE25 /* TextCalcCore */; };
+		38352AD49B402DEBFC4527C2 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58736C775E1F96ABAC027D27 /* AppState.swift */; };
+		4EBF1209C2BBA88203A18CBD /* TextCalcCore in Frameworks */ = {isa = PBXBuildFile; productRef = C003E4318D6F8FBF407F56B7 /* TextCalcCore */; };
+		6686EFA04DBFB3C7F4F5766D /* TextCalcMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801595770598975ED0037094 /* TextCalcMenuBarApp.swift */; };
+		6CE85B0020FB3280BE04557C /* HotkeyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A29D19ACBF8F77ED687D29 /* HotkeyService.swift */; };
+		8458A167EBDD952445B31AE5 /* CalculatorEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7616E3F5FCF3EC4467CF5 /* CalculatorEngineTests.swift */; };
+		88994C037C48B0F0935897E9 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6AD34C79CFB9311B9D323 /* CalculatorViewModel.swift */; };
+		AADAFA8AD28262B8D84A7651 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90506EBF22DCBE58A82B84A /* CalculatorView.swift */; };
+		BC5930B62F0AEBAE757B6896 /* FormattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7A256126E2778A431256 /* FormattingTests.swift */; };
+		BEA6C7DB1784E739077D4F11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BC2D758DBC589F554830C /* README.md */; };
+		F211A5FF2C97C1C57E1B3F05 /* TextCalcMenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DBA14696CB17F63A28B25 /* TextCalcMenuBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9800DC02DCFFD494DF89105E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E67CBFC9F73CA4E9C500EDBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5725506D1F8FEBF5E8F94333;
+			remoteInfo = TextCalcMenuBar;
+		};
+		B4A7C0BBC347599A2DD8178E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E67CBFC9F73CA4E9C500EDBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5725506D1F8FEBF5E8F94333;
+			remoteInfo = TextCalcMenuBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE7616E3F5FCF3EC4467CF5 /* CalculatorEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngineTests.swift; sourceTree = "<group>"; };
+		188D53A54BF4D57AE6359105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		46538EF7750BF1DF1A8387C8 /* TextCalcCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TextCalcCore; path = TextCalcCore; sourceTree = SOURCE_ROOT; };
+		58736C775E1F96ABAC027D27 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		5A6BC2D758DBC589F554830C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5C6DBA14696CB17F63A28B25 /* TextCalcMenuBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCalcMenuBarUITests.swift; sourceTree = "<group>"; };
+		62137C5F7CCDEC46CBFF99A1 /* TextCalcMenuBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextCalcMenuBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801595770598975ED0037094 /* TextCalcMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCalcMenuBarApp.swift; sourceTree = "<group>"; };
+		8EABF49823539D8CE76FA6DB /* TextCalcMenuBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextCalcMenuBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A538DAA7D1CF8BDCF002687 /* TextCalcMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextCalcMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7E6AD34C79CFB9311B9D323 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		CE0C7A256126E2778A431256 /* FormattingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingTests.swift; sourceTree = "<group>"; };
+		E90506EBF22DCBE58A82B84A /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		F1A29D19ACBF8F77ED687D29 /* HotkeyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotkeyService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BF7997DE24568DE29D069AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366D58A3080C4DA10B06F696 /* TextCalcCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0A424ED429AD27233C323E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EBF1209C2BBA88203A18CBD /* TextCalcCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24F4DA988272072D451C3B95 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				46538EF7750BF1DF1A8387C8 /* TextCalcCore */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		31B629DC91AB5D3D88D26FE8 /* TextCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A6BC2D758DBC589F554830C /* README.md */,
+				5C6DBA14696CB17F63A28B25 /* TextCalcMenuBarUITests.swift */,
+			);
+			path = TextCalcUITests;
+			sourceTree = "<group>";
+		};
+		9687221BECA8664ED09914B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A538DAA7D1CF8BDCF002687 /* TextCalcMenuBar.app */,
+				62137C5F7CCDEC46CBFF99A1 /* TextCalcMenuBarTests.xctest */,
+				8EABF49823539D8CE76FA6DB /* TextCalcMenuBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1FD63B4BCEB7C8DB078CA9 /* TextCalcCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DE7616E3F5FCF3EC4467CF5 /* CalculatorEngineTests.swift */,
+				CE0C7A256126E2778A431256 /* FormattingTests.swift */,
+			);
+			name = TextCalcCoreTests;
+			path = TextCalcCore/Tests/TextCalcCoreTests;
+			sourceTree = "<group>";
+		};
+		C0FB0F1C1468E34AC3DE35B4 = {
+			isa = PBXGroup;
+			children = (
+				24F4DA988272072D451C3B95 /* Packages */,
+				E68159E0C6CB57C6C94B7993 /* TextCalcApp */,
+				BE1FD63B4BCEB7C8DB078CA9 /* TextCalcCoreTests */,
+				31B629DC91AB5D3D88D26FE8 /* TextCalcUITests */,
+				9687221BECA8664ED09914B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E68159E0C6CB57C6C94B7993 /* TextCalcApp */ = {
+			isa = PBXGroup;
+			children = (
+				58736C775E1F96ABAC027D27 /* AppState.swift */,
+				E90506EBF22DCBE58A82B84A /* CalculatorView.swift */,
+				A7E6AD34C79CFB9311B9D323 /* CalculatorViewModel.swift */,
+				F1A29D19ACBF8F77ED687D29 /* HotkeyService.swift */,
+				188D53A54BF4D57AE6359105 /* Info.plist */,
+				801595770598975ED0037094 /* TextCalcMenuBarApp.swift */,
+			);
+			path = TextCalcApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CB130C49ABBD3AFC950D1D /* TextCalcMenuBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE848A8EF7F7469F557E2CCF /* Build configuration list for PBXNativeTarget "TextCalcMenuBarTests" */;
+			buildPhases = (
+				819C9E9015C284D6BA040B58 /* Sources */,
+				3BF7997DE24568DE29D069AE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61AB348A8EFCC19D1AD5BE3F /* PBXTargetDependency */,
+			);
+			name = TextCalcMenuBarTests;
+			packageProductDependencies = (
+				CC38CA8E245036529B50FE25 /* TextCalcCore */,
+			);
+			productName = TextCalcMenuBarTests;
+			productReference = 62137C5F7CCDEC46CBFF99A1 /* TextCalcMenuBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5725506D1F8FEBF5E8F94333 /* TextCalcMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF802E106562DE11B4EA0777 /* Build configuration list for PBXNativeTarget "TextCalcMenuBar" */;
+			buildPhases = (
+				8ED6D1A671D80311B9894F04 /* Sources */,
+				E0A424ED429AD27233C323E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextCalcMenuBar;
+			packageProductDependencies = (
+				C003E4318D6F8FBF407F56B7 /* TextCalcCore */,
+			);
+			productName = TextCalcMenuBar;
+			productReference = 9A538DAA7D1CF8BDCF002687 /* TextCalcMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A3737650B84EEDAAAA1AB49 /* TextCalcMenuBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B091F5CE026E11CB6BE53B7 /* Build configuration list for PBXNativeTarget "TextCalcMenuBarUITests" */;
+			buildPhases = (
+				888EB364138F19FB08120568 /* Sources */,
+				7985C5A185060C4203BABFFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE2C944BE6FEA90FEC970448 /* PBXTargetDependency */,
+			);
+			name = TextCalcMenuBarUITests;
+			packageProductDependencies = (
+			);
+			productName = TextCalcMenuBarUITests;
+			productReference = 8EABF49823539D8CE76FA6DB /* TextCalcMenuBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E67CBFC9F73CA4E9C500EDBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					13CB130C49ABBD3AFC950D1D = {
+						ProvisioningStyle = Automatic;
+					};
+					5725506D1F8FEBF5E8F94333 = {
+						ProvisioningStyle = Automatic;
+					};
+					7A3737650B84EEDAAAA1AB49 = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5725506D1F8FEBF5E8F94333;
+					};
+				};
+			};
+			buildConfigurationList = E5A7AD251245F5A957510E85 /* Build configuration list for PBXProject "TextCalcMenuBar" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = C0FB0F1C1468E34AC3DE35B4;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				29A963C90BBC384F501281B9 /* XCLocalSwiftPackageReference "TextCalcCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9687221BECA8664ED09914B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5725506D1F8FEBF5E8F94333 /* TextCalcMenuBar */,
+				13CB130C49ABBD3AFC950D1D /* TextCalcMenuBarTests */,
+				7A3737650B84EEDAAAA1AB49 /* TextCalcMenuBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7985C5A185060C4203BABFFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA6C7DB1784E739077D4F11 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		819C9E9015C284D6BA040B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8458A167EBDD952445B31AE5 /* CalculatorEngineTests.swift in Sources */,
+				BC5930B62F0AEBAE757B6896 /* FormattingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888EB364138F19FB08120568 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F211A5FF2C97C1C57E1B3F05 /* TextCalcMenuBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ED6D1A671D80311B9894F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38352AD49B402DEBFC4527C2 /* AppState.swift in Sources */,
+				AADAFA8AD28262B8D84A7651 /* CalculatorView.swift in Sources */,
+				88994C037C48B0F0935897E9 /* CalculatorViewModel.swift in Sources */,
+				6CE85B0020FB3280BE04557C /* HotkeyService.swift in Sources */,
+				6686EFA04DBFB3C7F4F5766D /* TextCalcMenuBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61AB348A8EFCC19D1AD5BE3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5725506D1F8FEBF5E8F94333 /* TextCalcMenuBar */;
+			targetProxy = B4A7C0BBC347599A2DD8178E /* PBXContainerItemProxy */;
+		};
+		AE2C944BE6FEA90FEC970448 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5725506D1F8FEBF5E8F94333 /* TextCalcMenuBar */;
+			targetProxy = 9800DC02DCFFD494DF89105E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B8B806402727AB869837970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextCalcMenuBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		3B9AFCF9677C4749C75D3BD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextCalcMenuBarUITests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = TextCalcMenuBar;
+			};
+			name = Debug;
+		};
+		486FB43802CA82E87137EB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextCalcMenuBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		5E4ACC5385F1B8C59BDC9FAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextCalcMenuBarUITests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = TextCalcMenuBar;
+			};
+			name = Release;
+		};
+		A5C7ECE770EC69EFDCB47397 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TextCalcApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_NAME = TextCalcMenuBar;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFBAD3F303ACB384F4799BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextCalcMenuBarTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextCalcMenuBar.app/Contents/MacOS/TextCalcMenuBar";
+			};
+			name = Debug;
+		};
+		E1D0804F5FE4B6B2091EE0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = TextCalcApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_NAME = TextCalcMenuBar;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF1590014145CC3F1C918976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TextCalcMenuBarTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextCalcMenuBar.app/Contents/MacOS/TextCalcMenuBar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B091F5CE026E11CB6BE53B7 /* Build configuration list for PBXNativeTarget "TextCalcMenuBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9AFCF9677C4749C75D3BD6 /* Debug */,
+				5E4ACC5385F1B8C59BDC9FAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DE848A8EF7F7469F557E2CCF /* Build configuration list for PBXNativeTarget "TextCalcMenuBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFBAD3F303ACB384F4799BFA /* Debug */,
+				FF1590014145CC3F1C918976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E5A7AD251245F5A957510E85 /* Build configuration list for PBXProject "TextCalcMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486FB43802CA82E87137EB10 /* Debug */,
+				1B8B806402727AB869837970 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EF802E106562DE11B4EA0777 /* Build configuration list for PBXNativeTarget "TextCalcMenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5C7ECE770EC69EFDCB47397 /* Debug */,
+				E1D0804F5FE4B6B2091EE0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		29A963C90BBC384F501281B9 /* XCLocalSwiftPackageReference "TextCalcCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TextCalcCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C003E4318D6F8FBF407F56B7 /* TextCalcCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TextCalcCore;
+		};
+		CC38CA8E245036529B50FE25 /* TextCalcCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TextCalcCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E67CBFC9F73CA4E9C500EDBD /* Project object */;
+}
