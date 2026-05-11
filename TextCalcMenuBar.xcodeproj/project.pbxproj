@@ -15,6 +15,7 @@
 		8458A167EBDD952445B31AE5 /* CalculatorEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE7616E3F5FCF3EC4467CF5 /* CalculatorEngineTests.swift */; };
 		88994C037C48B0F0935897E9 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E6AD34C79CFB9311B9D323 /* CalculatorViewModel.swift */; };
 		AADAFA8AD28262B8D84A7651 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90506EBF22DCBE58A82B84A /* CalculatorView.swift */; };
+		B735D0060857C694FA1CA830 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABCB023551146E5D74161B4 /* HistoryStore.swift */; };
 		BC5930B62F0AEBAE757B6896 /* FormattingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7A256126E2778A431256 /* FormattingTests.swift */; };
 		BEA6C7DB1784E739077D4F11 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5A6BC2D758DBC589F554830C /* README.md */; };
 		F211A5FF2C97C1C57E1B3F05 /* TextCalcMenuBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6DBA14696CB17F63A28B25 /* TextCalcMenuBarUITests.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		0DE7616E3F5FCF3EC4467CF5 /* CalculatorEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorEngineTests.swift; sourceTree = "<group>"; };
 		188D53A54BF4D57AE6359105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3ABCB023551146E5D74161B4 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
 		46538EF7750BF1DF1A8387C8 /* TextCalcCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TextCalcCore; path = TextCalcCore; sourceTree = SOURCE_ROOT; };
 		58736C775E1F96ABAC027D27 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		5A6BC2D758DBC589F554830C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				58736C775E1F96ABAC027D27 /* AppState.swift */,
 				E90506EBF22DCBE58A82B84A /* CalculatorView.swift */,
 				A7E6AD34C79CFB9311B9D323 /* CalculatorViewModel.swift */,
+				3ABCB023551146E5D74161B4 /* HistoryStore.swift */,
 				F1A29D19ACBF8F77ED687D29 /* HotkeyService.swift */,
 				188D53A54BF4D57AE6359105 /* Info.plist */,
 				801595770598975ED0037094 /* TextCalcMenuBarApp.swift */,
@@ -277,6 +280,7 @@
 				38352AD49B402DEBFC4527C2 /* AppState.swift in Sources */,
 				AADAFA8AD28262B8D84A7651 /* CalculatorView.swift in Sources */,
 				88994C037C48B0F0935897E9 /* CalculatorViewModel.swift in Sources */,
+				B735D0060857C694FA1CA830 /* HistoryStore.swift in Sources */,
 				6CE85B0020FB3280BE04557C /* HotkeyService.swift in Sources */,
 				6686EFA04DBFB3C7F4F5766D /* TextCalcMenuBarApp.swift in Sources */,
 			);

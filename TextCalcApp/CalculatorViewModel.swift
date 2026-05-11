@@ -11,16 +11,18 @@ final class CalculatorViewModel {
 
     private let engine = CalculatorEngine()
 
-    func evaluate() {
+    func evaluate() -> CalculationResult? {
         do {
             let calculation = try engine.evaluate(input)
             preview = calculation.normalizedExpression
             result = calculation.displayText
             errorMessage = nil
+            return calculation
         } catch {
             preview = nil
             result = nil
             errorMessage = error.localizedDescription
+            return nil
         }
     }
 
