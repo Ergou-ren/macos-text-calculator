@@ -83,7 +83,7 @@ struct CalculatorView: View {
                     .font(.caption.weight(.semibold))
                     .foregroundStyle(.secondary)
 
-                ScrollView(.vertical, showsIndicators: true) {
+                ScrollView(.vertical, showsIndicators: false) {
                     VStack(alignment: .leading, spacing: 4) {
                         ForEach(Array(items.enumerated()), id: \.element.id) { index, item in
                             HStack(alignment: .center, spacing: 4) {
